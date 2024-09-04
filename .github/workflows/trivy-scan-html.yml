@@ -19,7 +19,7 @@ jobs:
         with:
           scan-type: "image"
           image-ref: "docker.io/gamertense/vulnerable-golang:latest"
-          format: template"
+          format: "template"
           template: "@/contrib/html.tpl"
           output: trivy-report.html"
           exit-code: "1"
