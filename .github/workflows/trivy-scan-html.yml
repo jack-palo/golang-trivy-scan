@@ -17,7 +17,7 @@ jobs:
       - name: Run Trivy vulnerability scanner in fs mode
         uses: aquasecurity/trivy-action@0.24.0
         with:
-          scan-type: "fs"
+          scan-type: "image"
           scan-ref: "."
           format: "template"
           template: "./.github/workflows/trivy-templates/html.tpl"
