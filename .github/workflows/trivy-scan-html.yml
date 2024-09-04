@@ -19,7 +19,7 @@ jobs:
         with:
           scan-type: "fs"
           scan-ref: "."
-          format: "json"
+          format: "template"
           template: "@contrib/html.tpl"
           output: "report.html"
           exit-code: "1"
