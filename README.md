@@ -1,6 +1,6 @@
 # Golang Vulnerability Check with Trivy
 
-[![Run Vulnerability Check](https://github.com/gamertense/golang-trivy-scan/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/gamertense/golang-trivy-scan/actions/workflows/trivy-scan.yml)
+[![Scan with Trivy](https://github.com/jack-palo/golang-trivy-scan/actions/workflows/trivy-scan-github.yml/badge.svg)](https://github.com/jack-palo/golang-trivy-scan/actions/workflows/trivy-scan-github.yml)
 
 This repository contains a GitHub Action that scans Golang dependencies for vulnerabilities using [Trivy](https://trivy.dev/). Detected vulnerabilities are listed in the Security tab of this repository.
 
