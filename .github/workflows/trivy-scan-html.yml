@@ -20,7 +20,7 @@ jobs:
           scan-type: "fs"
           scan-ref: "."
           format: "template"
-          template: "@contrib/html.tpl"
+          template: "./.github/workflows/trivy-templates/html.tpl"
           output: "report.html"
           exit-code: "1"
           ignore-unfixed: true
